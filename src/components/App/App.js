@@ -1,14 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
-import App from './components/App';
+import AppHeader from '../AppHeader';
+import TodoList from '../TodoList';
+import SearchPanel from '../SearchPanel';
 
-/* import React from 'react';
-
-
-import AppHeader from './components/AppHeader';
-import TodoList from './components/TodoList';
-import SearchPanel from './components/SearchPanel/SearchPanel';
+import './App.css';
 
 const App = () => {
 
@@ -24,6 +20,6 @@ const App = () => {
 			<TodoList todos={todoData} />
 		</div>
 	);
-}; */
+};
 
-ReactDOM.render(<App />, document.getElementById('root'));
+export default App;
